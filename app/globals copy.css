@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  /* Paleta modo claro */
+  --color-primary: #672b3e;
+  --color-secondary: #8d586b;
+  --color-accent: #b38598;
+  --color-soft: #d9b2c5;
+  --color-light: #ffdff2;
+
+  --font-sans: "Raleway", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Estilo global claro */
+html {
+  font-family: var(--font-sans);
+  color: var(--color-primary);
+  background-color: #fff;
+  scroll-behavior: smooth;
+}
+
+/* Modo escuro */
+html.dark {
+  --color-primary: #d9b2c5;
+  --color-secondary: #b38598;
+  --color-accent: #8d586b;
+  --color-soft: #672b3e;
+  --color-light: #2b2b2b;
+
+  background-color: #1a1a1a;
+  color: var(--color-primary);
+}
+
+section {
+  scroll-margin-top: 3.25rem;
+}
+/* resetzinho elegante */
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.paragraph-about {
+  @apply text-sm md:text-base lg:text-lg xl:text-xl font-normal text-[color:var(--color-secondary)] dark:text-[color:var(--color-secondary)] text-2xl mb-4;
+}
