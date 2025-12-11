@@ -64,7 +64,7 @@ export const projects = [
       "Git",
       "GitHub",
     ],
-    // link: "https://www.globalbio.com.br",
+    link: "https://mapa-estrategico.vercel.app/",
     image: "/images/mapa-estrategico.webp",
     github: "https://github.com/simpleFran/mapa-estrategico",
   },
@@ -88,5 +88,15 @@ export const projects = [
     link: "https://be-o-pampa.vercel.app",
     image: "/images/beopampa.webp",
     github: "https://github.com/simpleFran/be-o-pampa",
+  },
+  {
+    title: "Ricardo P. Melo",
+    location: "Almada - Portugal",
+    description:
+      "Aplicação Web para Consultor para Consultor de Desenvolvimento Humano e Motivacional Ricardo Prim Melo em Almada, Portugal, com admin de agendamento e consultas.",
+    tags: ["Next.js", "Prisma", "TailwindCSS", "Git", "GitHub"],
+    link: "https://ricardopmelo.vercel.app/",
+    image: "/images/tela-ricardo-melo.png",
+    github: "https://github.com/simpleFran/ricardopmelo",
   },
 ];
