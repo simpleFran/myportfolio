@@ -93,7 +93,7 @@ export const projects = [
     title: "Ricardo P. Melo",
     location: "Almada - Portugal",
     description:
-      "Aplicação Web para Consultor para Consultor de Desenvolvimento Humano e Motivacional Ricardo Prim Melo em Almada, Portugal, com admin de agendamento e consultas.",
+      "Aplicação Web para Consultor de Desenvolvimento Humano e Motivacional Ricardo Prim Melo em Almada, Portugal, com admin de agendamento e consultas.",
     tags: ["Next.js", "Prisma", "TailwindCSS", "Git", "GitHub"],
     link: "https://ricardopmelo.vercel.app/",
     image: "/images/tela-ricardomelo.png",
