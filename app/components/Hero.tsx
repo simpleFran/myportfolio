@@ -19,7 +19,7 @@ export default function Hero() {
 
             <Parallax>
               <p className="text-lg sm:text-xl text-primary max-w-xl mb-2">
-                Desenvolvedor Full Stack apaixonado por transformar ideias em
+                Desenvolvedor Web apaixonado por transformar ideias em
                 código.
               </p>
               <p className="text-lg sm:text-xl text-primary max-w-xl">
